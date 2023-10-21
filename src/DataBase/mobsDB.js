@@ -1,4 +1,4 @@
-mobs = [
+export const mobs = [
     {
         name: 'Black Rat',
         location: [{

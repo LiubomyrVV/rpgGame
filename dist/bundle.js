@@ -16,17 +16,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module */ \"./module.js\");\n\r\n\r\n\n\n//# sourceURL=webpack://rpggame/./index.js?");
-
-/***/ }),
-
-/***/ "./module.js":
-/*!*******************!*\
-  !*** ./module.js ***!
-  \*******************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_scss_global_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/scss/global.scss */ \"./src/scss/global.scss\");\n\r\nconst div = document.createElement('Div')\r\nconst containerDiv = div\r\nconst body = document.querySelector('body');\r\n\r\nconsole.log(body)\n\n//# sourceURL=webpack://rpggame/./module.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_js_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/js/module */ \"./src/js/module.js\");\n\r\n\n\n//# sourceURL=webpack://rpggame/./index.js?");
 
 /***/ }),
 
@@ -36,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src
   \***********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n  background-color: black;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://rpggame/./src/scss/global.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n  background-color: aqua;\n}\n\nbody {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.game-window {\n  border: 1px solid black;\n  border-radius: 50px;\n  padding: 59px 42px;\n}\n\n.game-info {\n  text-align: center;\n  margin-bottom: 38px;\n}\n\n.buttons {\n  display: flex;\n  gap: 18px;\n}\n\n.btn {\n  border: 1px solid black;\n  border-radius: 15px;\n  padding: 0px 36px;\n  user-select: none;\n  transition: 0.3s;\n}\n.btn:hover {\n  background-color: black;\n  color: white;\n  cursor: pointer;\n}\n.btn:active {\n  transform: scale(0.9);\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://rpggame/./src/scss/global.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -127,6 +117,56 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://rpggame/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
+
+/***/ }),
+
+/***/ "./src/js/functions.js":
+/*!*****************************!*\
+  !*** ./src/js/functions.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   searchButtons: () => (/* binding */ searchButtons),\n/* harmony export */   searchEl: () => (/* binding */ searchEl),\n/* harmony export */   searchInfoBar: () => (/* binding */ searchInfoBar)\n/* harmony export */ });\nfunction searchInfoBar(arr) {\r\n    const infoBar = arr.filter(el => el.name === 'infoBar')\r\n    return infoBar[0].value;\r\n   \r\n}\r\n\r\nfunction searchButtons(arr) {\r\n    const buttons = arr.filter(el => el.name === 'buttons')\r\n    return buttons[0].value;\r\n   \r\n}\r\n\r\nfunction searchEl(arr) {\r\n    const element = arr.filter(el => el.name === 'element');\r\n    return element[0].value;\r\n}\n\n//# sourceURL=webpack://rpggame/./src/js/functions.js?");
+
+/***/ }),
+
+/***/ "./src/js/game.js":
+/*!************************!*\
+  !*** ./src/js/game.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   game: () => (/* binding */ game)\n/* harmony export */ });\n/* harmony import */ var _functions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./functions */ \"./src/js/functions.js\");\n/* harmony import */ var _routing__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./routing */ \"./src/js/routing.js\");\n\r\n\r\n\r\nconst game = (el) => {\r\n    const data = [];\r\n    data.push(\r\n        {\r\n            name: 'element',\r\n            value: el,\r\n        },\r\n        {\r\n            name: 'infoBar',\r\n            value: document.querySelector('.game-info__text')\r\n        },\r\n        {\r\n            name: 'buttons',\r\n            value: Array.from(document.querySelectorAll('.btn'))\r\n        }\r\n    )\r\n    \r\n\r\n    const infoBar = (0,_functions__WEBPACK_IMPORTED_MODULE_0__.searchInfoBar)(data);\r\n    \r\n    function loadingDots() { \r\n        let i = 0; \r\n        function recursion(i) {\r\n            setTimeout(() => {\r\n                infoBar.innerText += `.`\r\n                i++\r\n                if(i < 2) recursion(i)\r\n            }, 330)\r\n        }\r\n        recursion(i)\r\n    }\r\n    setTimeout(() => {\r\n        infoBar.innerText = `Entering`\r\n        loadingDots()\r\n    }) \r\n    \r\n    \r\n    setTimeout(() => (0,_routing__WEBPACK_IMPORTED_MODULE_1__.routing)(data), 1000)\r\n   \r\n    \r\n}\n\n//# sourceURL=webpack://rpggame/./src/js/game.js?");
+
+/***/ }),
+
+/***/ "./src/js/locations.js":
+/*!*****************************!*\
+  !*** ./src/js/locations.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   cave: () => (/* binding */ cave),\n/* harmony export */   dragonCave: () => (/* binding */ dragonCave),\n/* harmony export */   forest: () => (/* binding */ forest),\n/* harmony export */   village: () => (/* binding */ village)\n/* harmony export */ });\n/* harmony import */ var _game__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./game */ \"./src/js/game.js\");\n/* harmony import */ var _functions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./functions */ \"./src/js/functions.js\");\n\r\n\r\n\r\nconst village = (data) => {\r\n    const [infoBar, buttons] = [\r\n        (0,_functions__WEBPACK_IMPORTED_MODULE_1__.searchInfoBar)(data),\r\n        (0,_functions__WEBPACK_IMPORTED_MODULE_1__.searchButtons)(data)\r\n    ]\r\n    console.log([infoBar, buttons])\r\n    for( let i = 0; i < buttons.length; i++ ) {\r\n        switch(i) {\r\n            case 0:\r\n                buttons[i].innerHTML = `<h3 class=\"village__shop\">Shop</h3>`\r\n                break;\r\n            case 1:\r\n                buttons[i].innerHTML = `<h3 class=\"village__lucky-pirate\">Lucky Pirate</h3>`\r\n                break;\r\n            case 2:\r\n                buttons[i].innerHTML = `<h3 class=\"village__info\">Info</h3>`\r\n                break;\r\n            default: \r\n                buttons[i].innerHTML = `<h3 class=\"village__exit\">Exit</h3>`\r\n                break;\r\n        }\r\n    }\r\n\r\n   \r\n    \r\n}\r\n\r\nconst forest = (data) => {\r\n    console.log(data)\r\n}\r\n\r\nconst cave = (data) => {\r\n    console.log(data)\r\n}\r\n\r\nconst dragonCave = (data) => {\r\n    console.log(data)\r\n}\r\n\n\n//# sourceURL=webpack://rpggame/./src/js/locations.js?");
+
+/***/ }),
+
+/***/ "./src/js/module.js":
+/*!**************************!*\
+  !*** ./src/js/module.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_global_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/global.scss */ \"./src/scss/global.scss\");\n/* harmony import */ var _game__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./game */ \"./src/js/game.js\");\n\r\n\r\n\r\nconst [body, div] = [\r\n    document.querySelector('body'),\r\n    document.createElement('div'),\r\n]\r\n\r\n\r\nconst containerDiv = div.cloneNode()\r\n    containerDiv.className = 'game-window'\r\n\r\nconst gameInfoDiv = div.cloneNode()\r\n    gameInfoDiv.innerHTML = `<h2 class=\"game-info__text\">What road will you choose?</h2>`\r\n    gameInfoDiv.className = `game-info`\r\n\r\nconst buttonsDiv = div.cloneNode()\r\n    buttonsDiv.className = 'buttons'\r\n\r\nconst villageBtn = div.cloneNode()\r\n    villageBtn.innerHTML = `<h3 class=\"village-button__text\">Village</h3>`\r\n    villageBtn.className = `village-button btn`\r\n\r\nconst forestBtn = div.cloneNode()\r\n    forestBtn.innerHTML = `<h3 class=\"forest-button__text\">Forest</h3>`\r\n    forestBtn.className = `forest-button btn`\r\n\r\nconst caveBtn = div.cloneNode()\r\n    caveBtn.innerHTML = `<h3 class=\"cave-button__text\">Cave</h3>`\r\n    caveBtn.className = `cave-button btn`\r\n\r\nconst dragonCaveBtn = div.cloneNode()\r\n    dragonCaveBtn.innerHTML = `<h3 class=\"cave-button__text\">Dragon Cave</h3>`\r\n    dragonCaveBtn.className = `dragon-cave-button btn`\r\n\r\n\r\n\r\ncontainerDiv.append(gameInfoDiv, buttonsDiv)\r\nbuttonsDiv.append(villageBtn, forestBtn, caveBtn, dragonCaveBtn)\r\nbody.append(containerDiv)\r\n\r\nsetTimeout(document.querySelectorAll('.btn').forEach(el => el.addEventListener('click', _game__WEBPACK_IMPORTED_MODULE_1__.game)))\r\n\r\n\r\n\n\n//# sourceURL=webpack://rpggame/./src/js/module.js?");
+
+/***/ }),
+
+/***/ "./src/js/routing.js":
+/*!***************************!*\
+  !*** ./src/js/routing.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   routing: () => (/* binding */ routing)\n/* harmony export */ });\n/* harmony import */ var _locations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./locations */ \"./src/js/locations.js\");\n/* harmony import */ var _functions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./functions */ \"./src/js/functions.js\");\n\r\n\r\n\r\nfunction routing(data) {\r\n   \r\n    const el = (0,_functions__WEBPACK_IMPORTED_MODULE_1__.searchEl)(data)\r\n    const buttons = (0,_functions__WEBPACK_IMPORTED_MODULE_1__.searchButtons)(data);\r\n    \r\n    switch (el.target.innerText){\r\n        case 'Village':\r\n            (0,_locations__WEBPACK_IMPORTED_MODULE_0__.village)(data)\r\n            break; \r\n        case 'Forest':\r\n            (0,_locations__WEBPACK_IMPORTED_MODULE_0__.forest)(data)\r\n            break;\r\n        case 'Cave':\r\n            (0,_locations__WEBPACK_IMPORTED_MODULE_0__.cave)(data)\r\n            break; \r\n        case 'Dragon Cave':\r\n            (0,_locations__WEBPACK_IMPORTED_MODULE_0__.dragonCave)(data)\r\n            break; \r\n        default: \r\n            break;\r\n    }\r\n}\n\n//# sourceURL=webpack://rpggame/./src/js/routing.js?");
 
 /***/ })
 

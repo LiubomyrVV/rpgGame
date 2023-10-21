@@ -1,7 +1,9 @@
-import { searchInfoBar } from './functions';
+import { searchTool } from './functions/functions';
 import { routing } from './routing';
+import { initLocationsList } from './functions/functions';
 
 export const game = (el) => {
+    initLocationsList()
     const data = [];
     data.push(
         {
@@ -19,7 +21,7 @@ export const game = (el) => {
     )
     
 
-    const infoBar = searchInfoBar(data);
+    const infoBar = searchTool(data, 'infoBar');
     
     function loadingDots() { 
         let i = 0; 

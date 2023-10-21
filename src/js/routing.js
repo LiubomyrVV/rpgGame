@@ -1,25 +1,12 @@
-import { forest, village, cave, dragonCave } from './locations';
-import { searchButtons, searchEl } from './functions';
+import { searchTool, initLocation } from './functions/functions';
+import { game } from './game';
 
 export function routing(data) {
-    console.log('rout ', data)
-    const el = searchEl(data)
-    const buttons = searchButtons(data);
+    console.log('rout: ', data)
     
-    switch (el.target.innerText){
-        case 'Village':
-            village(data)
-            break; 
-        case 'Forest':
-            forest(data)
-            break;
-        case 'Cave':
-            cave(data)
-            break; 
-        case 'Dragon Cave':
-            dragonCave(data)
-            break; 
-        default: 
-            break;
-    }
+    const el = searchTool(data, 'element')
+    const buttons = searchTool(data, 'buttons')
+    buttons.forEach(el => el.removeEventListener('click', game))
+
+    initLocation(data, el.target.innerText)
 }

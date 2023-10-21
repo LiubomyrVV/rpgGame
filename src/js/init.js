@@ -1,8 +1,14 @@
 import '../scss/global.scss';
 import { game } from './game';
 
-const body = document.querySelector('body');
-const div = document.createElement('div');
+const [body, div] = [
+    document.querySelector('body'),
+    document.createElement('div'),
+]
+
+
+
+
 
 const containerDiv = div.cloneNode()
     containerDiv.className = 'game-window'
