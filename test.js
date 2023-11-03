@@ -25,15 +25,33 @@
    
     
 // }
-const data = [1,23,12]
-const arr = ['1','2', '3']
-function Location(data, arr) {
-    this.data = data
-    this.arr = arr
+
+
+
+const routingCache = [
+    {
+        name: 'Home',
+        level: 0
+    },
+    {
+        name: 'Village1',
+        level: 1
+    },
+    {
+        name: 'Shop',
+        level: 2
+    },
+    
+]; 
+
+
+function previousButton(routingCache) {
+    const found = routingCache.reverse().find(el => el.level < routingCache[0].level)
+    console.log('CHECK1: ', routingCache)
+    routingCache.reverse()
+    console.log('CHECK2: ', routingCache)
+    return found ? found.name : routingCache[0].name   
 }
 
 
-const location = new Location();
-console.log(location)
-location(data, arr)
-console.log(location)
+console.log(previousButton(routingCache))

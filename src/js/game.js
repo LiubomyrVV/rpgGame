@@ -1,9 +1,8 @@
 import { searchTool } from './functions/functions';
 import { routing } from './routing';
-import { initLocationsList } from './functions/functions';
 
-export const game = (el) => {
-    initLocationsList()
+
+export function game(el){
     const data = [];
     data.push(
         {
@@ -42,5 +41,5 @@ export const game = (el) => {
     
     setTimeout(() => routing(data), 1000)
    
-    
-}
+} 
+

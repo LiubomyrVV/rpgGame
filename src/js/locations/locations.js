@@ -8,7 +8,7 @@ export function Location() {
         
         this.infoBar = searchTool(data, 'infoBar')
         this.buttons = searchTool(data, 'buttons')
-        console.log(this.buttonsText)
+        console.log('Location constructor: ', this.buttonsText)
     }
     this.init = function() {
         if(this.buttons !== undefined) {
@@ -30,7 +30,7 @@ export function Location() {
             }
             setClickEvent(this.buttons)
         } else {
-            alert( new Error('suka yobana'))
+            console.log(new Error('Location Constructor Error: '))
         }
     }     
 }

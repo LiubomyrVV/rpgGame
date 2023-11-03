@@ -1,6 +1,13 @@
+import { routingCache } from '../DataBase/routingCache';
 import '../scss/global.scss';
-import { game } from './game';
+import { initLocationsList } from './functions/functions';
+import { gameInit }  from './functions/functions';
 
+
+
+
+export const locationList = initLocationsList()
+routingCache.push(locationList.filter(el => el.name === 'Home')[0])
 const [body, div] = [
     document.querySelector('body'),
     document.createElement('div'),
@@ -42,6 +49,11 @@ containerDiv.append(gameInfoDiv, buttonsDiv)
 buttonsDiv.append(villageBtn, forestBtn, caveBtn, dragonCaveBtn)
 body.append(containerDiv)
 
-setTimeout(document.querySelectorAll('.btn').forEach(el => el.addEventListener('click', game)))
+
+
+
+
+
+setTimeout(document.querySelectorAll('.btn').forEach(el => el.addEventListener('click', gameInit)))
 
 

@@ -8,5 +8,12 @@ export function routing(data) {
     const buttons = searchTool(data, 'buttons')
     buttons.forEach(el => el.removeEventListener('click', game))
 
-    initLocation(data, el.target.innerText)
+
+    try {
+        initLocation(data, el.target.innerText)
+    } catch(err) {
+        buttons.forEach(el => el.addEventListener('click', game))
+        console.error('Routing error.. ', err)
+    }
+    
 }
